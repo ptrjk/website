@@ -1,15 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f4aaa74.css",
-    "main.js": "/static/js/main.adbc244a.js",
-    "static/js/787.831c7526.chunk.js": "/static/js/787.831c7526.chunk.js",
-    "index.html": "/index.html",
-    "main.4f4aaa74.css.map": "/static/css/main.4f4aaa74.css.map",
-    "main.adbc244a.js.map": "/static/js/main.adbc244a.js.map",
-    "787.831c7526.chunk.js.map": "/static/js/787.831c7526.chunk.js.map"
+    "main.css": "/website/static/css/main.f239d26e.css",
+    "main.js": "/website/static/js/main.08806454.js",
+    "static/js/787.831c7526.chunk.js": "/website/static/js/787.831c7526.chunk.js",
+    "static/media/python.png": "/website/static/media/python.82efb64f8698a267f8bf.png",
+    "static/media/sql.png": "/website/static/media/sql.85fb38d6773862e917f4.png",
+    "static/media/java.png": "/website/static/media/java.35397b59170cfd616fee.png",
+    "static/media/deadlift.png": "/website/static/media/deadlift.64b2d58fae923c99e7e2.png",
+    "static/media/react.png": "/website/static/media/react.b76698cf6e821b8a8758.png",
+    "static/media/css.png": "/website/static/media/css.1ee9266ba0475cc6490f.png",
+    "static/media/sudokuExample.png": "/website/static/media/sudokuExample.5763178c7380c8b96bf3.png",
+    "static/media/zivotopis.pdf": "/website/static/media/zivotopis.fe05b64414b778659044.pdf",
+    "static/media/html.png": "/website/static/media/html.9b674892ef5960bafca3.png",
+    "static/media/C_Logo.png": "/website/static/media/C_Logo.bbbbbabc8c191bfb99bf.png",
+    "static/media/dart.png": "/website/static/media/dart.f00251a3d3eee7148f7a.png",
+    "static/media/database-table.png": "/website/static/media/database-table.d4e8818500a3f2c7e566.png",
+    "static/media/phone-call.png": "/website/static/media/phone-call.20a0ed4204215b0502d9.png",
+    "static/media/diagram.png": "/website/static/media/diagram.b891bf00c6660224fc9e.png",
+    "static/media/homeImage.svg": "/website/static/media/homeImage.419a5941a86e58bf764a72275919e2a9.svg",
+    "index.html": "/website/index.html",
+    "static/media/javascript-1.svg": "/website/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
+    "main.f239d26e.css.map": "/website/static/css/main.f239d26e.css.map",
+    "main.08806454.js.map": "/website/static/js/main.08806454.js.map",
+    "787.831c7526.chunk.js.map": "/website/static/js/787.831c7526.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f4aaa74.css",
-    "static/js/main.adbc244a.js"
+    "static/css/main.f239d26e.css",
+    "static/js/main.08806454.js"
   ]
 }
