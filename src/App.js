@@ -1,4 +1,5 @@
 import './App.css';
+import './Colors.css';
 import Navigation from './components/Navigation';
 import CustomSection from './components/CustomSection';
 import Card from './components/Card';
@@ -9,6 +10,7 @@ import homeLogo from './resources/homeImage.svg';
 import { useInView } from 'react-intersection-observer';
 import deadliftLogo from './resources/deadlift.png';
 import sudokuLogo from './resources/sudoku.png';
+import deadliftExample from './resources/deadliftExample.png';
 import queensLogo from './resources/chess.png';
 import sudoku from './resources/sudokuExample.png';
 import nqueens from './resources/nqueens.png';
@@ -17,6 +19,7 @@ import C from './resources/C_Logo.png';
 import java from './resources/java.png';
 import javascript from './resources/javascript-1.svg';
 import html from './resources/html.png';
+import ux from './resources/ux.jpg';
 import css from './resources/css.png';
 import react from './resources/react.png';
 import dart from './resources/dart.png';
@@ -46,6 +49,7 @@ function App() {
   const { ref: refCard1, inView: inViewCard1 } = useInView(config);
   const { ref: refCard2, inView: inViewCard2 } = useInView(config);
   const { ref: refCard2_2, inView: inViewCard2_2 } = useInView(config);
+  const { ref: refCard2_3, inView: inViewCard2_3 } = useInView(config);
   const { ref: refCard3, inView: inViewCard3 } = useInView(config2);
   const { ref: refCard4, inView: inViewCard4 } = useInView(config);
   const { ref: refCard5, inView: inViewCard5 } = useInView(config);
@@ -85,7 +89,9 @@ function App() {
             inView={inViewCard1}
             title={'Deadlift'}
             imgSrc={deadliftLogo}
+            exampleSrc={deadliftExample}
             showBadge={true}
+            listOfLanguages={['Flutter', 'SQL']}
             year={2023}
             description={'Táto aplikácia je zatiaľ mojím najväčším projektom, je to fitness aplikácia, ktorá slúži na sledovanie tréningov a zapisovanie kalórií. Aplikácia je dostupná na Google Play a je stále vo vývoji.'}
           ></Card>
@@ -95,6 +101,7 @@ function App() {
             title={'Jigsaw Sudoku'}
             imgSrc={sudokuLogo}
             exampleSrc={sudoku}
+            listOfLanguages={['Java', 'Java Spring', 'SQL', 'HTML', 'CSS']}
             year={2023}
             description={'Jedným z mojich najzaujímavejších školských projektov je Jigsaw Sudoku. Vyvíjal som to na predmete "Komponentové programovanie". Táto hra je naprogramovaná hlavne v jazyku Java, grafické rozhranie je zobrazené vo webovom prehliadači. Všetky dáta sa ukládajú do SQL databázy.'}
           ></Card>
@@ -104,8 +111,19 @@ function App() {
             title={'N Queens Problem'}
             imgSrc={queensLogo}
             exampleSrc={nqueens}
+            listOfLanguages={['Python']}
             year={2023}
             description={'V tomto projekte som sa venoval implementácii 5 algoritmov na riešenie klasického problému N-queens (N-dám) v programovacom jazyku Python. Problém spočíva v umiestnení N dám na šachovnicu o veľkosti N×N tak, aby sa žiadne dve dámy nenachádzali na rovnakej horizontálnej, vertikálnej alebo diagonálnej línii.'}
+          ></Card>
+          <Card
+            ref={refCard2_3}
+            inView={inViewCard2_3}
+            title={'Responsive Web'}
+            imgSrc={ux}
+            listOfLanguages={['HTML', 'CSS']}
+            year={2023}
+            link={true}
+            description={'Tento školský projekt je zameraný na tvorbu responzívnej webovej stránky s dôrazom na používateľské rozhranie a zážitok.'}
           ></Card>
         </CustomSection >
         <CustomSection title='Moje schopnosti' className={`skills ${inViewCard3 ? ' animate' : ' invisible'}`} ref={refCard3}>

@@ -16,6 +16,11 @@ nav {
     align-items: center;
 }
 
+.rightt {
+    display: flex;
+    flex-direction: column;
+}
+
 nav ul {
     padding-right: 2rem;
     list-style: none;
@@ -67,6 +72,13 @@ h3 {
     display: flex;
 }
 
+.Column {
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    margin-bottom: 8rem;
+    align-items: center;
+}
 
 section {
     min-height: 37rem;
@@ -148,10 +160,29 @@ section {
 
 .Card {
     width: 90%;
-    min-height: 23rem;
     display: flex;
     gap: 2rem;
-    margin-bottom: 8rem;
+}
+
+.langRow {
+    display: flex;
+    width: 90%;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.langTag {
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.6rem;
+    font-weight: 600;
+    color: white;
+    opacity: 0.3;
+    transition: opacity 0.1s;
+}
+
+.langTag:hover {
+    opacity: 0.7;
 }
 
 .cardRow h3 {
@@ -190,13 +221,24 @@ section {
     width: 161.5px;
     height: 62.5px;
     transform: translateX(-8%);
+
+}
+
+#link {
+    color: blue;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.Card a {
+    width: min-content;
 }
 
 #example {
     margin-top: 2rem;
     object-fit: contain;
-    transform: translateX(-17%);
     max-width: 24rem;
+    max-height: 26rem;
     border: 3px solid rgb(161, 195, 255);
     border-radius: 0.4rem;
 }
