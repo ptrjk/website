@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.7ab09356.css",
-    "main.js": "/website/static/js/main.66c6c22f.js",
+    "main.css": "/website/static/css/main.3689e184.css",
+    "main.js": "/website/static/js/main.0a81a5e0.js",
     "static/js/787.831c7526.chunk.js": "/website/static/js/787.831c7526.chunk.js",
     "static/media/deadliftExample.png": "/website/static/media/deadliftExample.33b6dd51ddaf5c2fc33d.png",
     "static/media/zivotopis.pdf": "/website/static/media/zivotopis.4cacafe78650227933dc.pdf",
@@ -24,12 +24,12 @@
     "static/media/homeImage.svg": "/website/static/media/homeImage.419a5941a86e58bf764a72275919e2a9.svg",
     "index.html": "/website/index.html",
     "static/media/javascript-1.svg": "/website/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.7ab09356.css.map": "/website/static/css/main.7ab09356.css.map",
-    "main.66c6c22f.js.map": "/website/static/js/main.66c6c22f.js.map",
+    "main.3689e184.css.map": "/website/static/css/main.3689e184.css.map",
+    "main.0a81a5e0.js.map": "/website/static/js/main.0a81a5e0.js.map",
     "787.831c7526.chunk.js.map": "/website/static/js/787.831c7526.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ab09356.css",
-    "static/js/main.66c6c22f.js"
+    "static/css/main.3689e184.css",
+    "static/js/main.0a81a5e0.js"
   ]
 }
