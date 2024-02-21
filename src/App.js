@@ -67,7 +67,7 @@ function App() {
             <div className='left'>
               <p><span>Ahoj, ja som</span></p>
               <h1>Peter Rujak 👋</h1>
-              <p className='desc'>Študent, ktorý si hľadá prácu na polovičný úväzok a miluje programovanie.</p>
+              <p className='desc'>Študent, ktorý si hľadá prácu na polovičný úväzok a chce získavať skúsenosti v oblasti programovania.</p>
               <a href={resume} download={'zivotopis'} className='btn'>Získať životopis</a>
             </div>
             <div className='right'>
@@ -79,8 +79,6 @@ function App() {
           <p>
             Moje meno je Peter. Mám 22 rokov a momentálne som v poslednom ročníku bakalárskeho programu Technickej univerzity v Košiach. Som časovo flexibilný nakoľko škola zaberá v mojom rozvrhu len veľmi málo času.
             Rád sa v tejto oblasti rozvíjam a mám rád nové výzvy.
-            Jedným z mojich najväčších úspechov je vytvorenie aplikácie "Deadlift",
-            ktorú som vyvinul počas letných prázdnin.
           </p>
         </CustomSection >
         <CustomSection className={`projects ${inViewAboutMe ? ' animate' : ' invisible'}`} ref={refAboutMe} title={'Moje projekty'} id='projekty'>
@@ -139,6 +137,10 @@ function App() {
         <CustomSection title={"Jazyky a Frameworky"} className={`languages ${inViewCard6 ? ' animate' : ' invisible'}`} ref={refCard6}>
           <div className={`grid ${inViewCard7 ? ' animate' : ' invisible'}`} ref={refCard7}>
             <div className="grid-item">
+              <img src={python} alt=''></img>
+              <Tag level={'Pokročilý'} lang={'Python'} />
+            </div>
+            <div className="grid-item">
               <img src={C} alt=''></img>
               <Tag level={'Pokročilý'} lang={'C'} />
             </div>
@@ -169,10 +171,6 @@ function App() {
             <div className="grid-item">
               <img src={react} alt=''></img>
               <Tag level={'Stredne pokročilý'} lang={'ReactJS'} />
-            </div>
-            <div className="grid-item">
-              <img src={python} alt=''></img>
-              <Tag level={'Stredne pokročilý'} lang={'Python'} />
             </div>
             <div className="grid-item">
               <img src={javascript} alt=''></img>
